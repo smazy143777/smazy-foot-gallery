@@ -38,12 +38,12 @@ const Index = () => {
   const howItWorksSteps = [
     {
       icon: Upload,
-      title: "Submit Your Content",
+      title: "Submit Your Feet",
       description: "Upload your best work through our Discord community or website submission form."
     },
     {
       icon: Users,
-      title: "Community Review",
+      title: "Smazy Review",
       description: "Our community votes and provides feedback on submitted content."
     },
     {
@@ -62,20 +62,11 @@ const Index = () => {
             Curated by Smazy
           </Badge>
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-            Showcase Your Best Work
+            Show Case Your Feet
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Join our community of creators and have your content featured in Smazy's curated gallery of exceptional user submissions.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="text-lg px-8">
-              Submit Content
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8">
-              View Gallery
-            </Button>
-          </div>
         </div>
       </section>
 
